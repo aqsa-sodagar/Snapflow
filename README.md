@@ -1,4 +1,4 @@
-# SnapFlow — Context-Aware Clipboard & Action Engine
+# SnapFlow: Context-Aware Clipboard & Action Engine
 
 SnapFlow is a lightweight, event-driven desktop automation engine for Windows. With a single global hotkey (`Ctrl + Shift + Space`), it inspects clipboard contents, classifies the data type, executes the appropriate workflow, and logs every action to a local SQLite database.
 
