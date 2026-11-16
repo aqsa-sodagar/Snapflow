@@ -19,3 +19,33 @@ flowchart LR
     C -->|Minified JSON| E[Format & Indent JSON]
     C -->|Date/Time Text| F[Generate .ics & Open Google Calendar]
     D & E & F --> G[Desktop Notification + SQLite Logger]
+
+
+## Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aqsa-sodagar/snapflow.git
+   cd snapflow
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Start the background engine:**
+   ```bash
+   python app.py
+   ```
+
+4. **View recent automation logs:**
+   ```bash
+   python history.py
+   ```
+
+## Tech Stack
+* **Language:** Python 3.12+
+* **OS Integration & Hotkeys:** `pynput`, `pyperclip`, `plyer`, `webbrowser`
+* **NLP Date Extraction:** `dateparser`
+* **Storage:** `sqlite3`
