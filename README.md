@@ -19,7 +19,7 @@ flowchart LR
     C -->|Minified JSON| E[Format & Indent JSON]
     C -->|Date/Time Text| F[Generate .ics & Open Google Calendar]
     D & E & F --> G[Desktop Notification + SQLite Logger]
-
+```
 
 ## Quick Start
 
